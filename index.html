@@ -1,41 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/fontawesome.css">
     <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Natalia Khrustaleva portfolio</title>
 </head>
+
 <body>
     <div class="content">
         <nav>
-            <a href="#" >Обо мне</a>
-            <a href="#education">Образование</a>
-            <a href="#work">Опыт работы</a>
-            <a href="#contacts">Контакты</a>
+            <a href="#">
+                <span class="fas fa-home"></span>
+                <span>Обо мне</span>
+            </a>
+            <a href="#education">
+                <span class="fas fa-user-graduate"></span>
+                <span>Образование</span>
+            </a>
+            <a href="#work">
+                <span class="fas fa-briefcase"></span>
+                <span>Опыт работы</span>
+            </a>
+            <a href="#contacts">
+                <span class="fas fa-envelope"></span>
+                <span>Контакты</span>
+            </a>
         </nav>
         <main>
-            тут большой блок с описаниями для каждого пункта
             <div id="about-me">
-                <div>
-                    <span>Наталья Хрусталева</span>
-                    <span>Junior Front-end developer</span>
+                <div class="fio-block">
+                    <div class="fio">Наталья Хрусталева</div>
+                    <div class="position">Junior Front-end developer</div>
                 </div>
-                <div>
-                    <span>Город: Санкт-Петербург</span>
-                    <span>Возраст: 31 год</span>
+                <div class="location-block">
+                    <div class="city">Город: Санкт-Петербург</div>
+                    <div class="age">Возраст: 31 год</div>
+                    <div class="nationality">Гражданство: Россия</div>
                 </div>
             </div>
             <div id="education">
-
+                <ul class="education-list">
+                    <li class="education-item">
+                        <div class="education-logo-block">
+                            <img src="img/guap.png" alt="ГУАП">
+                            <span class="education-ages">2004-2009 гг.</span>
+                        </div>
+                        <div>
+                            <h3><a href="http://new.guap.ru/" target="_blank">Санкт-Петербургский государственный университет аэрокосмического приборостроения</a></h3>
+                            <span>Факультет: Информационных систем и защиты информации</span>
+                            <span>Специальность: Комплексная защита объектов информатизации</span>
+                        </div>
+                    </li>
+                    <li class="education-item">
+                        <div class="education-logo-block">
+                            <img src="img/guap.png" alt="ГУАП">
+                            <span class="education-ages">2004-2009 гг.</span>
+                        </div>
+                        <div>
+                            <h3>ГУАП</h3>
+                            <span>Факультет:</span>
+                            <span>Специальность:</span>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <div id="work">
 
             </div>
             <div id="contacts">
-                
+
             </div>
         </main>
         <footer>
@@ -43,4 +81,5 @@
         </footer>
     </div>
 </body>
+
 </html>

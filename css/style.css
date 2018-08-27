@@ -11,9 +11,63 @@ body{
 }
 nav{
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+#about-me{
+    display:flex;
+    background-color: white;
+    height: 50vh;
+}
+#about-me > div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fio-block{
+    text-align: center;
+}
+.location-block{
+    background: #dbcb86;
+}
+.location-block > div{
+    padding: 10px 10px 10px 20px;
+}
+.fio{
+    padding: 30px 10px 20px 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.position{
+    padding: 10px 10px 20px 20px;
+    font-size: 22px;
+  
+}
+.education-item{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.education-logo-block{
+    width: 40%;
+}
+.education-logo-block > img{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 footer{
     text-align: center;
+    padding: 20px 0;
 }
 .portfolio-link{
     color: white;
