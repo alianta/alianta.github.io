@@ -13,20 +13,20 @@
 
 <body>
     <div class="content">
-        <nav>
-            <a href="#">
+        <nav id="main-nav">
+            <a id="menu-about-me" onclick="menu(this)">
                 <span class="fas fa-home"></span>
                 <span>Обо мне</span>
             </a>
-            <a href="#education">
+            <a id="menu-education" onclick="menu(this)">
                 <span class="fas fa-user-graduate"></span>
                 <span>Образование</span>
             </a>
-            <a href="#work">
+            <a id="menu-work" onclick="menu(this)">
                 <span class="fas fa-briefcase"></span>
                 <span>Опыт работы</span>
             </a>
-            <a href="#contacts">
+            <a id="menu-contacts" onclick="menu(this)">
                 <span class="fas fa-envelope"></span>
                 <span>Контакты</span>
             </a>
@@ -58,7 +58,7 @@
                         </div>
                     </li>
                     <li class="education-item">
-                        <h3>Курсы</h3>
+                        <h3 class="courses-header">Курсы</h3>
                     </li>
                     <li class="education-item">
                         <div class="education-logo-block">
@@ -68,7 +68,10 @@
                         <div class="education-info">
                             <h3><a href="http://levelp.ru/" target="_blank">«Level UP»</a></h3>
                             <div class="education-info-intem">Название курса:<span> WEB Developer</span></div>
-                            <div class="technology-stack"><img src="" alt="HTML"><img src="" alt="CSS"></div>
+                            <div class="technology-stack"><img src="img/git_logo.svg" alt="Git"><img src="img/html_logo.png"
+                                    alt="HTML"><img src="img/CSS_logo.png" alt="CSS"><img src="img/sass_logo.svg" alt="SASS"><img
+                                    src="img/js_logo.svg" alt="JS"><img src="img/bootstrap_logo.png" alt="Bootstrap"><img src="img/mongodb_logo.png"
+                                    alt="MongoDB"><img src="img/mysql_logo.png" alt="MySQL"></div>
                         </div>
                     </li>
                     <li class="education-item">
@@ -79,44 +82,92 @@
                         <div class="education-info">
                             <h3><a href="https://rosatomtech.ru/" target="_blank">АНО ДПО «Техническая академия Росатома»</a></h3>
                             <div class="education-info-intem">Название курса:<span> Специалист по разработке и дизайну Web-сайтов.</span></div>
-                            <div class="technology-stack"><img src="" alt="Adobe Photoshop"><img src="" alt="Adobe Illustrator"></div>
+                            <div class="technology-stack"><img src="img/photoshop_logo.png" alt="Adobe Photoshop"><img src="img/illustrator_logo.png"
+                                    alt="Adobe Illustrator"><img src="img/html_logo.png" alt="HTML"><img src="img/CSS_logo.png"
+                                    alt="CSS"></div>
                         </div>
                     </li>
                     <li class="education-item">
-                            <div class="education-logo-block">
-                                <a href="https://www.specialist.ru/" target="_blank"><img src="img/bauman.gif" alt="Bauman"></a>
-                                <span class="education-ages">2013 г.</span>
-                            </div>
-                            <div class="education-info">
-                                <h3><a href="https://www.specialist.ru/" target="_blank">Центр компьютерного обучения "Специалист" при МГТУ им. Н. Э. Баумана</a></h3>
-                                <div class="education-info-intem">Название курса:<span> Тестировщик ПО. Уровень1.</span></div>
-                                <div class="technology-stack"><img src="" alt="Adobe Photoshop"><img src="" alt="Adobe Illustrator"></div>
-                            </div>
-                        </li>
-                        <li class="education-item">
-                                <div class="education-logo-block">
-                                    <a href="http://ilanew.spb.ru/" target="_blank"><img src="img/ila.png" alt="ILA"></a>
-                                    <span class="education-ages">2010 г.</span>
-                                </div>
-                                <div class="education-info">
-                                    <h3><a href="http://ilanew.spb.ru/" target="_blank">International Language Academy</a></h3>
-                                    <div class="education-info-intem">Название курса:<span> Курсы английского языка уровня Intermediate</span></div>
-                                    <div class="technology-stack"><img src="" alt="Adobe Photoshop"><img src="" alt="Adobe Illustrator"></div>
-                                </div>
-                            </li>
+                        <div class="education-logo-block">
+                            <a href="https://www.specialist.ru/" target="_blank"><img src="img/bauman.gif" alt="Bauman"></a>
+                            <span class="education-ages">2013 г.</span>
+                        </div>
+                        <div class="education-info">
+                            <h3><a href="https://www.specialist.ru/" target="_blank">Центр компьютерного обучения "Специалист"
+                                    при МГТУ им. Н. Э. Баумана</a></h3>
+                            <div class="education-info-intem">Название курса:<span> Тестировщик ПО. Уровень1.</span></div>
+                        </div>
+                    </li>
+                    <li class="education-item">
+                        <div class="education-logo-block">
+                            <a href="http://ilanew.spb.ru/" target="_blank"><img src="img/ila.png" alt="ILA"></a>
+                            <span class="education-ages">2010 г.</span>
+                        </div>
+                        <div class="education-info">
+                            <h3><a href="http://ilanew.spb.ru/" target="_blank">International Language Academy</a></h3>
+                            <div class="education-info-intem">Название курса:<span> Курсы английского языка уровня Intermediate</span></div>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div id="work">
-
+                <div class="workplace">
+                    <h3 class="workplace-name">Северо-западный альянс</h3>
+                    <h4 class="workplace-time"></h4>
+                    <h4 class="workplace-position"></h4>
+                    <h5 class="workplace-function-header"></h5>
+                    <ul class="workplace-function">
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="workplace">
+                    <h3 class="workplace-name">Финансовый капитал</h3>
+                    <h4 class="workplace-time"></h4>
+                    <h4 class="workplace-position"></h4>
+                    <h5 class="workplace-function-header"></h5>
+                    <ul class="workplace-function">
+                        <li></li>
+                    </ul>
+                </div>
             </div>
             <div id="contacts">
-
+                
             </div>
         </main>
         <footer>
             <a class="portfolio-link" href="https://alianta.github.io/">&copy; Хрутслаева Наталья</a>
+            <div class="profile-links">
+                <a class="fab fa-github" href="https://github.com/alianta"></a>
+                <a class="fab fa-free-code-camp" href="https://www.freecodecamp.org/alianta"></a>
+            </div>
+
         </footer>
     </div>
+    <script>
+        function menu(obj) {
+            const activeMenuItemId = obj.id;
+            const mainMenu = document.getElementById('main-nav');
+            //получаем список id  меню
+            let menuList = mainMenu.childNodes;
+            const menuLength = menuList.length;
+            for (i = 0; i < menuLength; i++) {
+                if (menuList[i].tagName) {
+                    if (menuList[i].id === activeMenuItemId) {
+                        //делаем видимым блок
+                        const infoBlockId = menuList[i].id.replace(/menu-/, '');
+                        let infoBlock = document.getElementById(infoBlockId);
+                        infoBlock.style.display = 'flex';
+                    } else {
+                        //делаем невидимыми, которые от других пунктов меню
+                        console.log('ANOTHE MNEU')
+                        const infoBlockId = menuList[i].id.replace(/menu-/, '');
+                        let infoBlock = document.getElementById(infoBlockId);
+                        infoBlock.style.display = 'none';
+                    }
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>

@@ -22,6 +22,9 @@ nav a{
     display: flex;
     flex-direction: column;
 }
+nav a:hover{
+    color: midnightblue;
+}
 #about-me{
     display:flex;
     background-color: white;
@@ -55,6 +58,7 @@ nav a{
 }
 #education{
     width: 50vw;
+    display: none;
 }
 .education-list{
     padding: 0;
@@ -68,13 +72,14 @@ nav a{
     background-color: white;
     width: 25%;
     min-width: 25%;
+    padding: 5px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .education-logo-block img{
-    width: 100px;
+    width: 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,7 +91,7 @@ nav a{
     background-color: #dbcb86;
     padding: 20px;
     width: calc(75% - 40px);
-    min-width: calc(75% - 40px);
+    max-width: calc(75% - 40px);
 }
 .education-info-intem{
     font-weight: bold;
@@ -95,9 +100,39 @@ nav a{
 .education-info-intem span{
     font-weight: normal;
 }
+.courses-header{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.technology-stack{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.technology-stack img{
+    height: 30px;
+}
+
+#work{
+    display: none;
+}
+#contacts{
+    display: none;
+}
 footer{
     text-align: center;
     padding: 20px 0;
+}
+.profile-links a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.profile-links a:hover{
+    color: midnightblue;
 }
 .portfolio-link{
     color: white;
