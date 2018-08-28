@@ -21,9 +21,12 @@ nav a{
     font-size: 24px;
     display: flex;
     flex-direction: column;
+
 }
 nav a:hover{
     color: midnightblue;
+    cursor: pointer;
+
 }
 #about-me{
     display:flex;
@@ -137,4 +140,57 @@ footer{
 .portfolio-link{
     color: white;
     text-decoration: none;
+}
+
+#contacts{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    min-height: 50vh;
+    width: 50vw;
+}
+.contacts-body{
+    height: 60%;
+    min-height: 60%;
+}
+.contact-me{
+    background: #dbcb86;
+    height: 40%;
+    min-height: 40%;
+}
+.contact-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts-header, .contacts-info{
+    padding: 10px 30px;
+}
+.contacts-header{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.contact-links-header{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.contact-link-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: brown;
+    padding: 20px 0;
+}
+.contact-link-item::before{
+    font-size: 50px;
+}
+.contact-link-item:hover{
+    color: white;
+    text-shadow: 0 0 12px lightblue;
 }

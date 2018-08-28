@@ -131,7 +131,20 @@
                 </div>
             </div>
             <div id="contacts">
-                
+                <div class="contacts-body">
+                    <h4 class="contacts-header">Спасибо за интерес к моему резюме.</h4>
+                    <p class="contacts-info">Я открыта для работы в компании, которая предоставляет возможности расти и совершенствоваться не только студентам, но и людям с опытом, которые очень увлечены web разработкой. А так же всегда рада делиться большим опытом работы в банковской сфере.</p>
+                </div>
+
+                <div class="contact-me">
+                    <span class="contact-links-header">Свяжитесь со мной:</span>
+                    <div class="contact-links">
+                        <a href="mailto:hrustalyova@mail.ru" class="contact-link-item fas fa-at">Почта</a>
+                        <a href="https://t.me/alianta_wd" class="contact-link-item fab fa-telegram-plane">Telegram</a>
+
+                    </div>
+                </div>
+
             </div>
         </main>
         <footer>
@@ -157,12 +170,14 @@
                         const infoBlockId = menuList[i].id.replace(/menu-/, '');
                         let infoBlock = document.getElementById(infoBlockId);
                         infoBlock.style.display = 'flex';
+                        menuList[i].style.color = 'midnightblue';
                     } else {
                         //делаем невидимыми, которые от других пунктов меню
                         console.log('ANOTHE MNEU')
                         const infoBlockId = menuList[i].id.replace(/menu-/, '');
                         let infoBlock = document.getElementById(infoBlockId);
                         infoBlock.style.display = 'none';
+                        menuList[i].style.color = 'white';
                     }
                 }
             }
