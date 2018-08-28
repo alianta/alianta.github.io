@@ -194,3 +194,45 @@ footer{
     color: white;
     text-shadow: 0 0 12px lightblue;
 }
+#work{
+    display: none;
+    flex-direction: column;
+    background-color: #dbcb86;
+}
+.workplace{
+    padding: 10px;
+    margin: 0;
+}
+.workplace h4{
+    margin: 0;
+    padding-right: 5px;
+    width: 25%;
+    min-width: 25%;
+}
+.workplace-name{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+}
+.workplace-time{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.workplace-position, .workplace-function, .workplace-notes{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+}
+.workplace-function > ul {
+    padding: 0;
+}
+.workplace-function > ul > li{
+    list-style-type: none;
+}
+.workplace-function > ul > li::before{
+    content: '\25b6';
+    list-style-type: square;
+    position: relative;
+    left:     -5px;
+}
