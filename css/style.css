@@ -70,6 +70,10 @@ nav a:hover{
     width: 36px;
     padding: 3px 3px;
 }
+.resume-download-block img:hover{
+    background-color: white;
+    border-radius: 10px;
+}
 #education{
     width: 50vw;
     display: none;
@@ -97,6 +101,10 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: 0.5s;
+}
+.education-logo-block img:hover{
+    transform: rotateY(360deg);
 }
 .education-ages{
     padding: 15px 0;
@@ -179,6 +187,10 @@ footer{
 .contacts-header, .contacts-info{
     padding: 10px 30px;
 }
+.contacts-info{
+    text-indent: 25px;
+    text-align: justify;
+}
 .contacts-header{
     font-size: 20px;
     text-align: center;
@@ -258,7 +270,7 @@ footer{
     margin-top:0;
 }
 .workplace-notes a{
-    color: darkgreen;
+    color: brown;
 }
 
 .workplace-achiv > ul{
