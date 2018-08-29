@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/fontawesome.css">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Natalia Khrustaleva portfolio</title>
+</head>
+
+<body>
+    <div class="content">
+        <nav id="main-nav">
+            <a id="menu-about-me" onclick="menu(this)">
+                <span class="fas fa-home"></span>
+                <span>Обо мне</span>
+            </a>
+            <a id="menu-education" onclick="menu(this)">
+                <span class="fas fa-user-graduate"></span>
+                <span>Образование</span>
+            </a>
+            <a id="menu-work" onclick="menu(this)">
+                <span class="fas fa-briefcase"></span>
+                <span>Опыт работы</span>
+            </a>
+            <a id="menu-contacts" onclick="menu(this)">
+                <span class="fas fa-envelope"></span>
+                <span>Контакты</span>
+            </a>
+        </nav>
+        <main>
+            <div id="about-me">
+                <div class="fio-block">
+                    <div class="fio">Наталья Хрусталева</div>
+                    <div class="position">Junior Front-end developer</div>
+                </div>
+                <div class="location-block">
+                    <div class="city">Город: Санкт-Петербург</div>
+                    <div class="age">Возраст: 31 год</div>
+                    <div class="nationality">Гражданство: Россия</div>
+                    <div class="nationality">Семейное положение: не замужем, детей нет</div>
+                    <div class="resume-download-block">
+                        <a href="download/resume_Khrustaleva_Natalia.pdf" download><img src="img/pdf_logo.png" alt="resume pdf"
+                                title="Скачать резюме в формате Adobe Acrobat"></a>
+                        <a href="download/resume_Khrustaleva_Natalia.doc" download><img src="img/doc_logo.png" alt="resume word"
+                                title="Скачать резюме в формте MS Word"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="education">
+                <ul class="education-list">
+                    <li class="education-item">
+                        <div class="education-logo-block">
+                            <a href="http://new.guap.ru/" target="_blank"><img src="img/guap.png" alt="ГУАП"></a>
+                            <span class="education-ages">2004-2009 гг.</span>
+                        </div>
+                        <div class="education-info">
+                            <h4><a href="http://new.guap.ru/" target="_blank">Санкт-Петербургский государственный университет
+                                    аэрокосмического приборостроения</a></h4>
+                            <div class="education-info-intem">Факультет: <span>Информационных систем и защиты информации</span></div>
+                            <div class="education-info-intem">Специальность: <span>Комплексная защита объектов информатизации</span></div>
+                        </div>
+                    </li>
+                    <li class="education-item">
+                        <h3 class="courses-header">Курсы</h3>
+                    </li>
+                    <li class="education-item">
+                        <div class="education-logo-block">
+                            <a href="http://levelp.ru/" target="_blank"><img src="img/levelup.png" alt="LevelUP"></a>
+                            <span class="education-ages">август 2018 г.</span>
+                        </div>
+                        <div class="education-info">
+                            <h3><a href="http://levelp.ru/" target="_blank">«Level UP»</a></h3>
+                            <div class="education-info-intem">Название курса:<span> WEB Developer</span></div>
+                            <div class="technology-stack"><img src="img/git_logo.svg" alt="Git" title="GitHub"><img src="img/html_logo.png"
+                                    alt="HTML" title="HTML"><img src="img/CSS_logo.png" alt="CSS" title="CSS"><img src="img/sass_logo.svg"
+                                    alt="SASS" title="SASS"><img src="img/js_logo.svg" alt="JS" title="JavaScript"><img src="img/bootstrap_logo.png"
+                                    alt="Bootstrap" title="Boobstrap"><img src="img/mongodb_logo.png" alt="MongoDB" title="MongoDB"><img
+                                    src="img/mysql_logo.png" alt="MySQL" title="MySQL"></div>
+                        </div>
+                    </li>
+                    <li class="education-item">
+                        <div class="education-logo-block">
+                            <a href="https://rosatomtech.ru/" target="_blank"><img src="img/rosatom.png" alt="RosAtom"></a>
+                            <span class="education-ages">август 2018 г.</span>
+                        </div>
+                        <div class="education-info">
+                            <h3><a href="https://rosatomtech.ru/" target="_blank">АНО ДПО «Техническая академия Росатома»</a></h3>
+                            <div class="education-info-intem">Название курса:<span> Специалист по разработке и дизайну Web-сайтов.</span></div>
+                            <div class="technology-stack"><img src="img/photoshop_logo.png" alt="Adobe Photoshop" title="Adobe Photoshop"><img
+                                    src="img/illustrator_logo.png" alt="Adobe Illustrator" title="Adobe Illustrator"><img src="img/html_logo.png"
+                                    alt="HTML" title="HTML"><img src="img/CSS_logo.png" alt="CSS" title="CSS"></div>
+                        </div>
+                    </li>
+                    <li class="education-item">
+                        <div class="education-logo-block">
+                            <a href="https://www.specialist.ru/" target="_blank"><img src="img/bauman.gif" alt="Bauman"></a>
+                            <span class="education-ages">2013 г.</span>
+                        </div>
+                        <div class="education-info">
+                            <h3><a href="https://www.specialist.ru/" target="_blank">Центр компьютерного обучения "Специалист"
+                                    при МГТУ им. Н. Э. Баумана</a></h3>
+                            <div class="education-info-intem">Название курса:<span> Тестировщик ПО. Уровень1.</span></div>
+                        </div>
+                    </li>
+                    <li class="education-item">
+                        <div class="education-logo-block">
+                            <a href="http://ilanew.spb.ru/" target="_blank"><img src="img/ila.png" alt="ILA"></a>
+                            <span class="education-ages">2010 г.</span>
+                        </div>
+                        <div class="education-info">
+                            <h3><a href="http://ilanew.spb.ru/" target="_blank">International Language Academy</a></h3>
+                            <div class="education-info-intem">Название курса:<span> English Intermediate</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="work">
+
+                <ul class="workplace">
+                    <li class="workplace-name">АКБ "Северо-Западный 1 Альянс Банк" АО</li>
+                    <li class="workplace-time">
+                        <h4>Период работы:</h4>
+                        <span>апрель 2016 – май 2017</span>
+                    </li>
+                    <li class="workplace-position">
+                        <h4>Должность:</h4>
+                        <span>Начальник отдела автоматизированных банковских систем и дистанционного банковского обслуживания</span>
+                    </li>
+                    <li class="workplace-time">
+                        <h4>Период работы:</h4>
+                        <span>апрель 2015 – апрель 2016</span>
+                    </li>
+                    <li class="workplace-position">
+                        <h4>Должность:</h4>
+                        <span>Главный специалист отдела автоматизированных банковских систем и дистанционного банковского
+                            обслуживания
+                        </span>
+                    </li>
+                    <li class="workplace-function">
+                        <h4>Должностные обязанности:</h4>
+                        <ul>
+                            <li>Обеспечение бесперебойной работы АБС "БИСКВИТ"
+                                <ul>
+                                    <li>установка обновлений (от небольших фиксов до полноценного перехода на новые версии
+                                        ПО)
+                                    </li>
+                                    <li>составление заявок за доработку/исправление для разработчика при вопросах, требующих
+                                        серьёзных изменений в системе или исправления ошибок в ПО.</li>
+                                    <li>самостоятельные доработки функционала по запросу сотрудников банка, не требующие
+                                        вмешательства разработчиков ПО</li>
+                                    <li>сопровождение пользователей</li>
+                                </ul>
+                            </li>
+                            <li>Администрирование подсистемы автоматизированного дистанционного банковского обслуживания
+                                "ДБО BS-Client"
+                                <ul>
+                                    <li>установка обновлений</li>
+                                    <li>генерация ключей клиентов</li>
+                                    <li>поддержка пользователей</li>
+                                </ul>
+                            </li>
+                            <li>Замещение системного администратора в период его временного отсутствия. (Linux, FreeBSD,
+                                Windows Server)
+                            </li>
+                            <li>Участие в мероприятиях ПОД/ФТ</li>
+                        </ul>
+                    </li>
+                    <li class="workplace-achiv">
+                        <h4>Ключевые навыки <br>и достижения:</h4>
+                        <ul>
+                            <li>Развертывание полноценного резервного сервера подсистемы автоматизированного дистанционного банковского обслуживания</li>
+                            <li>Развертывание центра сертификации ключей клиентов для получения лицензии ФСБ</li>
+                            <li>Работа со средствами аутентификации (Рутокен, eToken)</li>
+                            <li>Участие в закрытии организации и передачи оборудование о отчетности в ЦБ (полная инвентаризация отдела: формирование отчетов, ключей, баз данных, оборудования и необходимой документации для восстановления данных для дальнейшей передачи в ЦБ)</li>
+                        </ul>
+                    </li>
+                    <li class="workplace-notes">
+                        <h4>Примечания:</h4>
+                        <span>Прекратила работу по сокращению в связи с закрытием организации (<a href="http://www.cbr.ru/credit/coinfo.asp?id=190000011">отзыв
+                                лицензии на осуществление банковских операций в связи с банкротством</a>).</span>
+                    </li>
+                </ul>
+
+                <ul class="workplace">
+                    <li class="workplace-name">ООО КБ "Финансовый капитал"</li>
+                    <li class="workplace-time">
+                        <h4>Период работы:</h4>
+                        <span>август 2008 – апрель 2015</span>
+                    </li>
+                    <li class="workplace-position">
+                        <h4>Должность:</h4>
+                        <span>Ведущий инженер Управления автоматизации и программирования</span>
+                    </li>
+
+                    <li class="workplace-function">
+                        <h4>Должностные обязанности:</h4>
+                        <ul>
+
+                            <li>Администрирование подсистемы автоматизированного дистанционного банковского обслуживания
+                                "ДБО BS-Client"
+                                <ul>
+                                    <li>установка и настройка центров сертификации</li>
+                                    <li>установка и настройка систем шифрования и подписи</li>
+                                    <li>разработка технической документации для пользователей</li>
+                                    <li>техническая поддержка пользователей</li>
+                                </ul>
+                            </li>
+                            <li>написание скриптов для облегчения обработки ежедневной информации отдела и составления отчетов
+                                для ЦБ (python и Batch)</li>
+                            <li>Техническая поддержка пользователей банка, сопровождение компьютерной и орг. техники в рамках
+                                взаимозаменяемости сотрудников отдела</li>
+                            <li>Замещение системного администратора в перод его временного отсутствия. (Linux, FreeBSD, Windows
+                                Server)
+                            </li>
+                            <li>Участие в мероприятиях ПОД/ФТ</li>
+                        </ul>
+                    </li>
+                    <li class="workplace-achiv">
+                            <h4>Ключевые навыки <br>и достижения:</h4>
+                            <ul>
+                                <li>Работа с системам шифрования и подписи (СКЗИ «КриптоПро», СКЗИ «Верба-OW», СКЗИ СКАД "Сигнатура", Message-PRO, File-PRO)</li>
+                                <li>Опыт работы с серверами Linux, FreeBSD, Windows Server а рамках замещения системного администратора в период его отсутствия.</li>
+                                <li>Опыт работы в команде</li>
+                                <li>Опыт быстрого решения возникающих задач.</li>
+                                <li>Опыт работы с банковским ПО (ДБО "BS-Client", АБС «QBIS», ПТК ПСД, УФЭБС, ПО Петербургский Расчетный Центр, ПО СПб Валютная Биржа, Кассовые заявки, Программы анализа и контроля обязательств перед вкладчиками)</li>
+                            </ul>
+                        </li>
+                    <li class="workplace-notes">
+                        <h4>Примечания:</h4>
+                        <div>
+                            <p>Прекратила работу в связи с длительным (более 2 лет) отсутствием у работодателя возможности
+                                взять в штат системного администратора и начальника технического отдела.</p>
+                            <p>На данный момент организация закрыта (<a href="http://www.cbr.ru/credit/coinfo.asp?id=400000029">отозвана
+                                    лицензия на осуществление банковской деятельности</a>)</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div id="contacts">
+                <div class="contacts-body">
+                    <h4 class="contacts-header">Спасибо за интерес к моему резюме.</h4>
+                    <p class="contacts-info">Я открыта для работы в компании, которая предоставляет возможности расти и совершенствоваться
+                        не только студентам, но и людям с опытом, увлеченным web разработкой. А так же всегда рада делиться
+                        большим опытом работы в банковской сфере.</p>
+                </div>
+
+                <div class="contact-me">
+                    <span class="contact-links-header">Свяжитесь со мной:</span>
+                    <div class="contact-links">
+                        <a href="mailto:hrustalyova@mail.ru" class="contact-link-item fas fa-at">Почта</a>
+                        <a href="https://t.me/alianta_wd" class="contact-link-item fab fa-telegram-plane">Telegram</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <a class="portfolio-link" href="https://alianta.github.io/">&copy; Хрутслаева Наталья</a>
+            <div class="profile-links">
+                <a class="fab fa-github" href="https://github.com/alianta"></a>
+                <a class="fab fa-free-code-camp" href="https://www.freecodecamp.org/alianta"></a>
+            </div>
+
+        </footer>
+    </div>
+    <script>
+        function menu(obj) {
+            const activeMenuItemId = obj.id;
+            const mainMenu = document.getElementById('main-nav');
+            //получаем список id  меню
+            let menuList = mainMenu.childNodes;
+            const menuLength = menuList.length;
+            for (i = 0; i < menuLength; i++) {
+                if (menuList[i].tagName) {
+                    if (menuList[i].id === activeMenuItemId) {
+                        //делаем видимым блок
+                        const infoBlockId = menuList[i].id.replace(/menu-/, '');
+                        let infoBlock = document.getElementById(infoBlockId);
+                        infoBlock.style.display = 'flex';
+                        menuList[i].style.color = 'midnightblue';
+                    } else {
+                        //делаем невидимыми, которые от других пунктов меню
+                        console.log('ANOTHE MNEU')
+                        const infoBlockId = menuList[i].id.replace(/menu-/, '');
+                        let infoBlock = document.getElementById(infoBlockId);
+                        infoBlock.style.display = 'none';
+                        menuList[i].style.color = 'white';
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
